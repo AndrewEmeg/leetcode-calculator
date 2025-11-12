@@ -117,7 +117,7 @@ export default function LeetCodeCalculator() {
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold text-gray-900">
-                                LeetCode Accountability Calculator
+                                LeetCode AccountAndrewability Calculator
                             </h1>
                             <p className="text-gray-600">
                                 Automated debt settlement for your coding
