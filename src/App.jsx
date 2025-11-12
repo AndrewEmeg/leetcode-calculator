@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import { DollarSign, Users, Calculator, TrendingDown } from "lucide-react";
 
 export default function LeetCodeCalculator() {
-    const [participants, setParticipants] = useState([
-        { name: "Andrew Emeghebo", missedDays: 9 },
-        { name: "Favour Umejesi", missedDays: 6 },
-        { name: "Eniola Irinoye", missedDays: 0 },
-        { name: "Careen Mwenisongole", missedDays: 3 },
-    ]);
+    const [participants, setParticipants] = useState([]);
 
     const addParticipant = () => {
         setParticipants([...participants, { name: "", missedDays: 0 }]);
@@ -117,7 +112,7 @@ export default function LeetCodeCalculator() {
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold text-gray-900">
-                                LeetCode AccountAndrewability Calculator
+                                LeetCode Accountability Calculator
                             </h1>
                             <p className="text-gray-600">
                                 Automated debt settlement for your coding
